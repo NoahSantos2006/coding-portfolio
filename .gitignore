@@ -1,0 +1,20 @@
+# Track only the site source and public assets listed below.
+/*
+!/.gitignore
+!/README.md
+!/site/
+
+/site/*
+!/site/index.html
+!/site/style.css
+!/site/app.js
+!/site/projects.js
+!/site/count.js
+!/site/assets/
+
+/site/assets/*
+!/site/assets/chest.svg
+!/site/assets/forest.js
+!/site/assets/fonts.css
+!/site/assets/PressStart2P-OFL.txt
+!/site/assets/VT323-OFL.txt
