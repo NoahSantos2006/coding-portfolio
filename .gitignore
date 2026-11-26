@@ -14,6 +14,7 @@
 
 /site/assets/*
 !/site/assets/chest.svg
+!/site/assets/og-image.png
 !/site/assets/forest.js
 !/site/assets/fonts.css
 !/site/assets/PressStart2P-OFL.txt
