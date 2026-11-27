@@ -1,6 +1,6 @@
 # Noah Santos | Coding Portfolio
 
-A static portfolio for six coding projects in machine learning, computer vision, and data.
+A static portfolio for five coding projects in machine learning, computer vision, and data.
 
 [View the live portfolio](https://noahsantos-portfolio.pages.dev/)
 
