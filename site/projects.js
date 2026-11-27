@@ -55,27 +55,17 @@ const projects = [
     links: [['GitHub', 'https://github.com/NoahSantos2006/FaceFind']]
   },
   {
-    id: 'hoops', name: 'Basketball Props Analytics Pipeline',
-    description: 'An end-to-end NBA player-prop prediction pipeline.',
-    rarity: 'Uncommon', date: 'Dec 2025 – Jan 2026',
-    tags: ['Python', 'XGBoost', 'SQLite', 'nba_api', 'scikit-learn'],
-    details: [
-      'Turns NBA stats, odds and injury data into features stored in SQLite.',
-      'Uses an XGBoost minutes model and per-prop classifiers, with TimeSeriesSplit tuning and Platt scaling.',
-      'Ranks predictions daily by confidence and supports historical backtests.'
-    ],
-    links: [['GitHub', 'https://github.com/NoahSantos2006/Basketball-Props-Analytics-Pipeline']]
-  },
-  {
     id: 'camera', name: 'nowahspov',
-    description: 'A photography site that builds a gallery from a folder.',
-    rarity: 'Common',
-    tags: ['Node.js', 'Express', 'JSDOM'],
+    description: 'A retro camcorder-style photo and home-movie portfolio.',
+    rarity: 'Rare',
+    tags: ['JavaScript', 'Node.js', 'FFmpeg', 'AWS Lambda', 'DynamoDB', 'Cloudflare Pages'],
     details: [
-      'Builds a masonry gallery from a folder of photos using Node, Express and JSDOM.',
-      'Includes a lightbox for full-size photos and a fade-in as images enter the viewport.'
+      'Filterable photo gallery with a keyboard-accessible lightbox and a camcorder-style video player, in vanilla JS with no framework.',
+      'A build pipeline uses FFmpeg and Pillow to turn camera originals into web-ready video, posters and responsive WebP images, and strips GPS metadata.',
+      'A serverless booking backend on AWS (API Gateway, Lambda, DynamoDB, SES, defined in SAM) with Turnstile bot protection.',
+      'Frontend hosted on Cloudflare Pages, with videos served from S3 and CloudFront.'
     ],
-    links: [['GitHub', 'https://github.com/NoahSantos2006/nowahspov-website']]
+    links: [['Live site', 'https://nowahspov.pages.dev'], ['GitHub', 'https://github.com/NoahSantos2006/nowahspov-website']]
   }
 ];
 
@@ -84,6 +74,5 @@ const sprites = {
   locks: '<path fill="#101611" d="M5 1h6v1h2v5h2v8H1V7h2V2h2z"/><path fill="#d3a55f" d="M5 2h6v1h1v4h-2V4H6v3H4V3h1z"/><path fill="#d89236" d="M2 7h12v7H2z"/><path fill="#ffe18a" d="M2 7h12v1H3v5H2z"/><path fill="#8e5226" d="M13 8h1v6H3v-1h10z"/><path fill="#37271b" d="M7 9h2v2H8v2H7z"/>',
   climb: '<path fill="#101611" d="M6 2h5v1h2v3h2v8H1V8h2V5h2V3h1z"/><path fill="#8a8b78" d="M6 3h5v1h1v3h2v6H2V9h2V6h2z"/><path fill="#5f665b" d="M10 4h2v3h2v6H3v-2h7z"/><path fill="#e6945e" d="M7 5h3v2H7z"/><path fill="#dfc66e" d="M4 8h3v2H4z"/><path fill="#a0c6b7" d="M9 9h3v2H9z"/><path fill="#d998a2" d="M6 11h2v2H6z"/>',
   face: '<path fill="#101611" d="M2 2h10v1h2v8h-2v1h2v2h1v2h-3v-2h-2v-2H2v-1H1V3h1z"/><path fill="#8cb6ae" d="M2 3h10v1h1v6h-1v1H2V4h1z"/><path fill="#d9eee3" d="M3 4h8v1h1v4h-1v1H3V9H2V5h1z"/><path fill="#b98761" d="M5 5h4v4H5z"/><path fill="#424137" d="M5 5h4v1H5zm0 2h1v1H5zm3 0h1v1H8z"/><path fill="#e1aa6f" d="M10 11h2v1h1v2h1v1h-2v-2h-1v-1h-1z"/>',
-  hoops: '<path fill="#101611" d="M5 1h6v1h2v2h2v8h-2v2h-2v1H5v-1H3v-2H1V4h2V2h2z"/><path fill="#d77f42" d="M5 2h6v1h2v2h1v6h-1v2h-2v1H5v-1H3v-2H2V5h1V3h2z"/><path fill="#f1a557" d="M5 2h4v2H5v2H3V4h2z"/><path fill="#522c23" d="M5 2h1v2h2v2h2v2h2v2h2v1h-2v-1h-2V8H8V6H6V4H5zm6 0h1v3h-1v2H9v2H7v2H5v2H4v-2h1V9h2V7h2V5h2zM2 7h3v1H2zm9 5h2v1h-2v1h-1v-2z"/>',
   camera: '<path fill="#101611" d="M4 3h6v2h5v9H1V5h3z"/><path fill="#9a9b85" d="M5 4h4v2h5v7H2V6h3z"/><path fill="#ddd3a7" d="M2 6h12v2H2z"/><path fill="#4d5651" d="M2 9h12v4H2z"/><path fill="#1d2827" d="M6 7h5v1h1v4h-1v1H6v-1H5V8h1z"/><path fill="#80aaa6" d="M7 8h3v1h1v2h-1v1H7v-1H6V9h1z"/><path fill="#c9e2da" d="M7 9h2v1H7z"/>'
 };
